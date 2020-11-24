@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karte</title>
+</head>
+<body>
+    <form>
+    <label for="korisnik">Ime i prezime:</label><input type="text" name="textPolje" id="korisnik" required><br><br>
+    <label for="email">E-mail adresa: </label><input type="email" name="emailPolje" id="email" required><br><br>
+    <label for="kontakt">Kontakt telefon:</label> <input type="text" name="telefonPolje" id="kontakt" required><br><br>
+    <br>
+    Vrsta karte: <select name="vrstaKarte">
+        <option value="studentskaKarta">Studentska karta 25€ </option>
+        <option value="redovnaKarta">Redovna karta 50€ </option>
+        </select>
+        <br>
+        <br>
+        Izbor radionice:
+        <br> 
+        <input type="radio" name="radioPolje">Developer Advocate@ Auth0<br>
+        <input type="radio" name="radioPolje">Vue.js Core Team member<br>
+        <input type="radio" name="radioPolje">HTML,CSS & JavaScript Workshop<br>
+        <br>
+        <input type="submit" value="Potvrdi">
+        <input type="reset" value="Obriši">
+
+    </form>
+</body>
+</html>
